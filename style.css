@@ -4,7 +4,17 @@ hr {
     margin-right: auto;
     display: block;
 }
+
 a {
     color: white;
     font-size: 33px;
+    transform: translateZ(0);
+}
+
+a:hover {
+    color: #E70E02;
+}
+
+i {
+    transform: translateZ(0);
 }
