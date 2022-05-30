@@ -569,6 +569,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center;
 }
 
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
 .text-8xl {
   font-size: 6rem;
   line-height: 1;
