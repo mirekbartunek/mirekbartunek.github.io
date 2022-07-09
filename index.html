@@ -10,28 +10,42 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
-<body class="bg-slate-800 text-zinc-50 text-center sm:text-center" data-aos="fade-up">
-<h1 class="mt-8 mb-5 text-8xl">
-    Mirek Bartuněk
-</h1>
-<!--TODO fix for mobile devices -->
-<div class="flex flex-wrap flex-row gap-4 justify-center" data-aos="fade-up">
-    <div class="rounded-md bg-slate-700 w-1/5 mt-10 border border-white-300 sm">
-        <h2 class="p-2 text-3xl">About me</h2>
-        <p>Backend/Frontend Developer</p>
-        <a href="https://github.com/mirekbartunek"><i class="bi bi-githubhover:text-white-300 text-xl"></i>
-        </a>
-    </div>
-    <div class="rounded-md bg-slate-700 w-1/5 mt-10 border border-white-300" data-aos="fade-up">
-        <h2 class="p-2 text-3xl">Featured projects</h2>
-        <p>None yet.</p>
-    </div>
-    <div class="rounded-md bg-slate-700 w-1/5
-     mt-10 border border-white-300" data-aos="fade-up">
-        <h2 class="p-2 text-3xl">Testimonials</h2>
-        <p><a href="https://mirandaniel.com" class="hover:text-white-300">MiranDaniel</a> - Miroslav je idiot. Nemám
-            ho rád</p>
-    </div>
+<body class="bg-slate-800 text-slate-100 flex flex-col justify-center items-center" data-aos="fade-up">
+
+<header class="m-16">
+    <h1 class="text-7xl sm:text-7xl">Mirek Bartuněk</h1>
+    <hr class="border-slate-500 border-2 w-full">
+</header>
+<div data-aos="fade-up">
+    <main class="w-screen px-5">
+        <div class="flex flex-col w-full justify-center items-center gap-5 sm:">
+            <section class="rounded-lg border-4 border-slate-500 p-5 sm:w-4/12 w-full">
+                <h2 class="font-semibold text-xl">About me</h2>
+                <hr class="border-slate-500 border w-full my-2">
+                <ul class="list-disc ml-3">
+                    <li>Frontend dev</li>
+                    <li>Backend dev</li>
+                </ul>
+            </section>
+            <div class="rounded-lg border-4 border-slate-500 p-5 sm:w-4/12 w-full ">
+                <div class="flex justify-between">
+                    <h2 class=" font-semibold text-xl">Projects</h2>
+                    <a href="https://github.com/mirekbartunek"> <i class="bi bi-github"></i></a>
+                </div>
+                <hr class="border-slate-500 border w-full my-2">
+                <p>None yet.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="flex flex-col items-center">
+            <p class="text-slate-100">Contact me</p>
+            <div class="flex flex-row">
+                <i class="bi bi-discord"></i>
+                <p>⠀mkB#1763</p>
+            </div>
+        </div>
+    </footer>
 </div>
 </body>
 <script>
